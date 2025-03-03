@@ -1,0 +1,170 @@
+*{
+    font-family: 'Amatic SC';
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav-bar{
+    background-color: rgba(0, 0, 0, 0.516);
+    position: fixed;
+    font-size: 30px;
+    width: 100%;
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+}
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+    padding:0.7% 2% 0.7% 2%;
+}
+.nav-bar a:hover{
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.468);
+    font-size: 150%;
+}
+.nav-bar:hover{
+    background-color: black;
+}
+#home{
+    background-image: url(pizza.jpg);
+    height: 800px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+#home div{
+    color: white;
+    font-size: 7rem;
+    width: 100%;
+}
+#home p{
+    text-align: center;
+    font-size: 3rem;
+    color:white;
+    margin-top: 2%;
+    background-color: black;
+}
+#home p:hover{
+    background-color:rgba(255, 255, 255, 0.26);
+    border: 2px solid white;
+}
+#home span{
+    position: absolute;
+    margin-top: 40%;
+    margin-right: 80%;
+    color: red;
+    font-size: 120%;
+    background-color: transparent;
+}
+#menu{
+    background-color: black;
+    height: 100%;
+    padding-bottom: 20%;
+}
+#menu h1{
+    font-size: 500%;
+    color: white;
+    text-align: center;
+    padding: 12% 12% 9% 12%;
+}
+.m1{
+    display: flex;
+    border: 1px solid white;
+    height: 5rem;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.m1 a{
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    font-size: 250%;
+}
+.m1 a:hover{
+    background-color: red;
+}
+#pizza,#salad,#staters{
+    background-color: white;
+    color: black;
+    margin-left: 8%;
+    margin-right: 8%;
+    display: none;
+}
+#pizza:target,#salad:target,#staters:target{
+    display: block;
+}
+h2{
+    display: flex;
+    justify-content: space-between;
+    padding: 4% 2% 4% 2%;
+}
+#pizza span,b,p,#salad span,b,p,#staters span,b,p{
+    font-size: 200%;
+}
+#pizza p,#salad p,#staters p{
+    padding: 4% 2% 4% 2%;
+    border-bottom: 4px double rgba(0, 0, 0, 0.345);
+}
+#about{
+    background-color: #8b5f5b;
+    color: white;
+    padding: 8%;
+}
+#about h1{
+    font-size: 400%;
+    text-align: center;
+    padding: 10%;
+}
+#about p,span{
+    font-size: 180%;
+    padding: 2rem 4rem 1rem 4rem;
+}
+.ab{
+    display: flex;
+    justify-content: space-between;
+}
+.img1{
+    width: 10rem;
+    border-radius: 50%;
+}
+.resphot{
+    width: 90%;
+    padding:8% 12% 5% 6%;
+}
+.timings{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+#con{
+    background-color: #6c7a81d4;
+    color: white;
+    padding: 2rem;
+}
+#con h1{
+    padding: 2rem;
+    font-size: 5rem;
+    text-align: center;
+}
+#con p{
+    margin: 3rem 0rem;
+    text-align:justify;
+}
+#con b{
+    background-color: black;
+    padding: 0% 2% 0% 2%;
+    border-radius: 20%;
+}
+#con input{
+    width: 100%;
+    height: 5rem;
+    font-size: 200%;
+    margin: 1rem;
+}
